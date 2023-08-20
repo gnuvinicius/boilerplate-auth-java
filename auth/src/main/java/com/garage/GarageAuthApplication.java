@@ -5,11 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.garage.dashboard")
-public class DashboardApplication {
+@ComponentScan("com.garage.auth")
+public class GarageAuthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DashboardApplication.class, args);
+		SpringApplication.run(GarageAuthApplication.class, args);
 	}
-
 }

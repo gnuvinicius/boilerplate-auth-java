@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.garage.auth.data.IUserRepository;
-import com.garage.dashboard.core.enums.Status;
+import com.garage.core.enums.Status;
 
 @Service
 public class UserService implements UserDetailsService {

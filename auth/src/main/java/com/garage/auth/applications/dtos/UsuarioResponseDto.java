@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.garage.auth.models.Role;
-import com.garage.dashboard.core.enums.Status;
+import com.garage.core.enums.Status;
 
 import lombok.Getter;
 import lombok.Setter;

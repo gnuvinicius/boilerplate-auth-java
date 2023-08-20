@@ -7,7 +7,7 @@ import com.garage.auth.applications.services.IRoleService;
 import com.garage.auth.data.IRoleRepository;
 import com.garage.auth.models.Role;
 import com.garage.auth.models.Usuario;
-import com.garage.dashboard.core.exceptions.NotFoundException;
+import com.garage.core.exceptions.NotFoundException;
 
 @Service
 public class RoleService implements IRoleService {

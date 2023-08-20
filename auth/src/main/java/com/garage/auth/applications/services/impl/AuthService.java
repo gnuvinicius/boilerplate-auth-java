@@ -26,10 +26,10 @@ import com.garage.auth.data.IEmpresaRepository;
 import com.garage.auth.data.IUserRepository;
 import com.garage.auth.models.Empresa;
 import com.garage.auth.models.Usuario;
-import com.garage.dashboard.core.enums.Status;
-import com.garage.dashboard.core.exceptions.BusinessException;
-import com.garage.dashboard.core.exceptions.NotFoundException;
-import com.garage.dashboard.core.services.IEmailService;
+import com.garage.core.enums.Status;
+import com.garage.core.exceptions.BusinessException;
+import com.garage.core.exceptions.NotFoundException;
+import com.garage.core.services.IEmailService;
 
 @Component
 public class AuthService implements IAuthService {

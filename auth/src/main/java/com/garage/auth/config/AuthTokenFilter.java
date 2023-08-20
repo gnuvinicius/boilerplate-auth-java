@@ -15,7 +15,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.garage.auth.data.IUserRepository;
 import com.garage.auth.models.Usuario;
-import com.garage.dashboard.core.exceptions.NotFoundException;
+import com.garage.core.exceptions.NotFoundException;
 
 @Service
 public class AuthTokenFilter extends OncePerRequestFilter  {

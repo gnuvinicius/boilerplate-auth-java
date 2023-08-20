@@ -23,8 +23,8 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.garage.auth.applications.dtos.UsuarioRequestDto;
-import com.garage.dashboard.core.enums.Status;
-import com.garage.dashboard.core.utils.AssertionConcern;
+import com.garage.core.enums.Status;
+import com.garage.core.utils.AssertionConcern;
 
 import lombok.Getter;
 

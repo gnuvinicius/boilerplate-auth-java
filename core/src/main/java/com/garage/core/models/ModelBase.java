@@ -1,11 +1,12 @@
-package com.garage.dashboard.core.models;
+package com.garage.core.models;
 
 import java.time.LocalDateTime;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.MappedSuperclass;
-import com.garage.dashboard.core.enums.Status;
+
+import com.garage.core.enums.Status;
 
 import lombok.Getter;
 

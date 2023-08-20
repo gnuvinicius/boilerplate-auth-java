@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.utils;
+package com.garage.core.utils;
 
 public class AssertionConcern {
 

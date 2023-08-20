@@ -10,7 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.garage.dashboard.core.enums.Status;
+import com.garage.core.enums.Status;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

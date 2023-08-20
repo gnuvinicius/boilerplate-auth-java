@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.models;
+package com.garage.core.models;
 
 import java.util.ArrayList;
 import java.util.List;

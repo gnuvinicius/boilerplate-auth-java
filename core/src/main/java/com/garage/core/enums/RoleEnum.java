@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.enums;
+package com.garage.core.enums;
 
 public enum RoleEnum {
 

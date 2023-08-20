@@ -16,8 +16,8 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.garage.auth.applications.dtos.EmpresaRequestDto;
-import com.garage.dashboard.core.enums.Status;
-import com.garage.dashboard.core.utils.AssertionConcern;
+import com.garage.core.enums.Status;
+import com.garage.core.utils.AssertionConcern;
 
 import lombok.Getter;
 

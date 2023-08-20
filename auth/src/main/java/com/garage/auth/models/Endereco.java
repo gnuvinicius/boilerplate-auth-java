@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.garage.auth.applications.dtos.EnderecoDto;
-import com.garage.dashboard.core.utils.AssertionConcern;
+import com.garage.core.utils.AssertionConcern;
 
 import lombok.Getter;
 import lombok.Setter;

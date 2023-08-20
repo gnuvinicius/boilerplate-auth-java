@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import com.garage.auth.models.Empresa;
 import com.garage.auth.models.Usuario;
-import com.garage.dashboard.core.enums.Status;
+import com.garage.core.enums.Status;
 
 @Transactional
 public interface IUserRepository extends JpaRepository<Usuario, String> {

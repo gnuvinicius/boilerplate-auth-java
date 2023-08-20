@@ -5,7 +5,7 @@ import com.garage.auth.applications.dtos.TokenDto;
 import com.garage.auth.applications.dtos.UserLoginRequestDto;
 import com.garage.auth.models.Empresa;
 import com.garage.auth.models.Usuario;
-import com.garage.dashboard.core.exceptions.NotFoundException;
+import com.garage.core.exceptions.NotFoundException;
 
 public interface IAuthService {
 

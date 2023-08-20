@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.exceptions;
+package com.garage.core.exceptions;
 
 public class BusinessException extends RuntimeException {
 

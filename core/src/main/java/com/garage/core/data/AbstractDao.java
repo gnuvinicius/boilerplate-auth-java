@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.data;
+package com.garage.core.data;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -17,11 +17,11 @@ import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 import javax.transaction.Transactional;
 
-import com.garage.dashboard.core.exceptions.BusinessException;
-import com.garage.dashboard.core.models.ModelBase;
-import com.garage.dashboard.core.models.PaginationResult;
-
 import org.springframework.stereotype.Service;
+
+import com.garage.core.exceptions.BusinessException;
+import com.garage.core.models.ModelBase;
+import com.garage.core.models.PaginationResult;
 
 /**
  * 

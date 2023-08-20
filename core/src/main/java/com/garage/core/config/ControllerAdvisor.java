@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.config;
+package com.garage.core.config;
 
 import java.net.URISyntaxException;
 import java.time.LocalDateTime;
@@ -23,9 +23,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.garage.dashboard.core.exceptions.BusinessException;
-import com.garage.dashboard.core.exceptions.NotFoundException;
-import com.garage.dashboard.core.exceptions.UnauthorizedException;
+import com.garage.core.exceptions.BusinessException;
+import com.garage.core.exceptions.NotFoundException;
+import com.garage.core.exceptions.UnauthorizedException;
 
 import io.jsonwebtoken.ExpiredJwtException;
 

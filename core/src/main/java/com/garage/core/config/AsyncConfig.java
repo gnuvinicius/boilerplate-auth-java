@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.config;
+package com.garage.core.config;
 
 import java.util.concurrent.Executor;
 

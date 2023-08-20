@@ -1,4 +1,4 @@
-package com.garage.dashboard.core.services;
+package com.garage.core.services;
 
 public interface IEmailService {
 
