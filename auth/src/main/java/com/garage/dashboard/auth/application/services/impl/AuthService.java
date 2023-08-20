@@ -166,7 +166,7 @@ public class AuthService implements IAuthService {
 		str.append(";email=" + usuario.getEmail());
 		str.append(";refreshtoken=" + usuario.getTokenRefreshPassword());
 
-		emailService.sendMail(usuario.getEmail(), str.toString());
+		emailService.sendMail(usuario.getEmail(), "", str.toString());
 	}
 
 	private void createRefreshToken(Usuario usuario) {
