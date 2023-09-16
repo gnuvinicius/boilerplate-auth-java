@@ -1,4 +1,7 @@
-FROM 3.9.4-eclipse-temurin-11
+FROM maven:3.9.4-amazoncorretto-17-debian
+
+ARG USER_HOME_DIR="/root"
+ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 
 RUN apt-get update && apt-get install -y curl tar bash procps git
 
@@ -12,8 +15,6 @@ RUN mvn clean install
 WORKDIR /app/boilerplate-central-java/auth
 
 RUN mvn -DskipTests clean package
-
-FROM eclipse-temurin:11
 
 WORKDIR /app/boilerplate-central-java/auth/target
 
