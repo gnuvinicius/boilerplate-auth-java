@@ -20,4 +20,4 @@ WORKDIR /app/boilerplate-central-java/auth/target
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "dashboard-service-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "garage-auth-1.0.0.jar"]

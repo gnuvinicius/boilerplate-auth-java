@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.garage</groupId>
-	<artifactId>dashboard-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>service</name>
-	<description>Dashboard service</description>
+	<artifactId>garage-auth</artifactId>
+	<version>1.0.0</version>
+	<name>auth</name>
+	<description>garage auth api</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
